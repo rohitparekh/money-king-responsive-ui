@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money King Dashboard</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicon css  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <section class="main-dashboard-container">
+        <div class="sidebar">
+            <button class="close"><i class='bx bx-x'></i></button>
+            <img src="img/logo.png" class="logo">
+            <ul>
+                <li><a href="#"><i class='bx bx-home'></i> Home</a></li>
+                <li><a href="#"><i class='bx bx-wallet-alt' ></i> Wallet</a></li>
+                <li><a href="#"><i class='bx bx-transfer' ></i> Transfers</a></li>
+                <li><a href="#"><i class='bx bx-money'></i> Pay Services</a></li>
+                <li><a href="#"><i class='bx bx-mobile-alt'></i> Phone Recharges</a></li>
+                <li><a href="#"><i class='bx bx-credit-card'></i> My Cards</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"><i class='bx bx-user'></i> Sub - Accounts</a>
+                </li>
+                <li>
+                    <a href="#"><i class='bx bx-chat' ></i> Chat</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 ml-auto right-section" id="right-section">
+                    <button class="toggle-btn"><i class='bx bx-menu'></i></button>
+                    <!-- Header section  -->
+                    <div class="header-section">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex">
+                                <div class="header-options notifications white-block">
+                                    <i class='bx bx-bell'></i>
+                                </div>
+                                <div class="header-options user">
+                                    <i class='bx bx-user'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Elements  -->
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                            <div class="inner-card balance">
+                                <h5>Balance</h5>
+                                <h1 class="price-earned">$ 7,610.00</h1>
+
+                                <div class="payment-from-to-block d-flex">
+                                    <div class="row">
+                                        <div class="col-lg-6 col">
+                                            <div class="grey-block">
+                                                <i class='bx bxs-up-arrow-alt left'></i>
+                                            </div>
+                                            <span class="price"><b>$</b> 2,3999.00</span>
+                                        </div>
+                                        <div class="col-lg-6 col">
+                                            <div class="grey-block">
+                                                <i class='bx bxs-down-arrow-alt right'></i>
+                                            </div>
+                                            <span class="price"><b>$</b> 4,3556.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="inner-card information">
+                                <div class="edit-btn">
+                                    <i class='bx bxs-pencil' ></i>
+                                </div>
+                                <h5>Information</h5>
+                                <ul>
+                                    <li>
+                                        <p><i class='bx bx-map' ></i> Location: </p>
+                                        <p>Pune</p>
+                                    </li>
+                                    <li>
+                                        <p><i class='bx bx-credit-card'></i> Wallet Id: </p>
+                                        <p>4442dfrdfdffdfdfdfddffdfqaas</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="inner-card security">
+                                <h5>security</h5>
+                                <ul>
+                                    <li>
+                                        <i class='bx bx-lock-alt' ></i>
+                                        <p>Key</p>
+                                    </li>
+                                    <li>
+                                        <button>Change</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            
+                            <div class="inner-card transactions">
+
+                                <div class="colorful-card">
+                                    <div class="white-logo">
+                                        <img src="img/white-logo.png" alt="">
+                                    </div>
+                                    <div class="card-no-block">
+                                        <span>1234</span>
+                                        <span>5678</span>
+                                        <span>9123</span>
+                                        <span>4567</span>
+                                    </div>
+                                    <h1>$ 7610.00</h1>
+                                </div>
+
+                                <p class="transaction-text">Transactions</p>
+                                <div class="switch-button">
+                                    <button class="active">Send</button>
+                                    <button>Apply for</button>
+                                </div>
+
+                                <label for="">Pay to</label>
+                                <div class="card-no-text">
+                                    <p>0333-2954-2486-9654</p>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <label for="amount">Amount</label>
+                                        <input type="number" id="amount" placeholder="$ 200">
+                                        <div class="commission-text">
+                                            <p>Commissions</p>
+                                            <p>$3</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="buisness">Buisness</label>
+                                        <input type="text" id="buisness" placeholder="Buisness">
+                                        <div class="commission-text">
+                                            <p>Total</p>
+                                            <p>$4443</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="send-btn"><i class='bx bx-send'></i> Send</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

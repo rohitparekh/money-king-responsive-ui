@@ -1,0 +1,20 @@
+Sidebar 
+
+<i class='bx bx-home'></i>
+<i class='bx bx-wallet-alt' ></i>
+<i class='bx bx-mobile-alt'></i>
+<i class='bx bx-money'></i>
+<i class='bx bx-transfer' ></i>
+<i class='bx bx-credit-card'></i>
+
+<i class='bx bx-chat' ></i>
+<i class='bx bx-user'></i>
+
+<i class='bx bx-dollar' ></i>
+
+<i class='bx bxs-up-arrow-alt'></i>
+<i class='bx bxs-down-arrow-alt'></i>
+
+<i class='bx bx-map' ></i>
+<i class='bx bx-lock-alt' ></i>
+<i class='bx bx-send'></i>
